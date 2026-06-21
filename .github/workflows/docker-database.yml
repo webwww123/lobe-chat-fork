@@ -105,7 +105,7 @@ jobs:
           name: digest-${{ env.PLATFORM_PAIR }}
           path: /tmp/digests/*
           if-no-files-found: error
-          retention-days: 1
+          retention-days: 3
 
   merge:
     name: Merge

@@ -186,7 +186,7 @@ jobs:
             apps/desktop/release/*.zip*
             apps/desktop/release/*.exe*
             apps/desktop/release/*.AppImage
-          retention-days: 5
+          retention-days: 3
 
       - name: Log build info
         run: |
